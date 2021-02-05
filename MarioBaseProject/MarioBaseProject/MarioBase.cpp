@@ -88,7 +88,7 @@ bool InitSDL()
 	}
 
 	//Load the background texture
-	g_texture = LoadTextureFromFile("Images/test.bmp");
+	g_texture = LoadTextureFromFile("Images/maxresdefault.jpg");
 	if (g_texture == nullptr)
 	{
 		return false;
