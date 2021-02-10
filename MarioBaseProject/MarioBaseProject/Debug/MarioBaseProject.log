@@ -1,3 +1,8 @@
-﻿  MarioBase.cpp
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\MarioBase.cpp(102): warning C4715: 'InitSDL': not all control paths return a value
+﻿  GameScreen.cpp
+  GameScreenLevel1.cpp
+  GameScreenManager.cpp
+  MarioBase.cpp
+  Texture2D.cpp
+  Generating Code...
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\MarioBase.cpp(111): warning C4715: 'InitSDL': not all control paths return a value
   MarioBaseProject.vcxproj -> D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe
