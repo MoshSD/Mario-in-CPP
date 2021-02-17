@@ -21,6 +21,9 @@ class Character
 		bool m_moving_left;
 		bool m_moving_right;
 
+		virtual void MoveLeft(float deltaTime);
+		virtual void MoveRight(float deltaTime);
+
 
 
 	public:
@@ -33,6 +36,8 @@ class Character
 		Vector2D GetPosition();
 
 
+	private:
+		FACING m_facing_direction;
 
 };
 

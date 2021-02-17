@@ -147,7 +147,7 @@ bool Update()
 	//handle the events
 	switch (e.type)
 	{
-			//click the 'X' to quit
+		//click the 'X' to quit
 	case SDL_QUIT:
 		return true;
 		break;
