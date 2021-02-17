@@ -1,5 +1,2 @@
 ﻿  Character.cpp
-  GameScreenLevel1.cpp
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenLevel1.cpp(31,12): warning C4930: 'Character Render(void)': prototyped function not called (was a variable definition intended?)
-  Generating Code...
   MarioBaseProject.vcxproj -> D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe

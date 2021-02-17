@@ -28,7 +28,7 @@ void GameScreenLevel1::Render()
 {
 	//Draw the background
 	m_background_texture->Render(Vector2D(), SDL_FLIP_NONE);
-	Character(Render());
+	my_character->Render();
 }
 
 void  GameScreenLevel1::Update(float deltaTime, SDL_Event e) 

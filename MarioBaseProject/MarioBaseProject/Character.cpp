@@ -35,13 +35,19 @@ void Character::Update(float deltaTime, SDL_Event e)
 {
 	switch (e.type)
 	{
-
-	case SDLK_LEFT:
-		m_position.x -= 1;
-	case SDLK_RIGHT:
-		m_position.x += 1;
-
-		
+	case SDL_KEYDOWN:
+		switch (e.key.keysym.sym)
+		{
+		case SDLK_LEFT:
+			m_position.x -= 1;
+			std::cout << "MOVING LEFT" << endl;
+			break;
+		case SDLK_RIGHT:
+			m_position.x += 1;
+			std::cout << "MOVING RIGHT" << endl;
+			break;
+		}
+	
 	default:;
 	}
 }
