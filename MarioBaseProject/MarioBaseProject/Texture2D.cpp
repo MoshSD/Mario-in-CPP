@@ -43,7 +43,7 @@ void Texture2D::Free()
 void Texture2D::Render(Vector2D new_position, SDL_RendererFlip flip, double angle)
 {
 	//set where to render the texture
-	SDL_Rect renderLocation = { 0,0,m_width, m_height};
+	SDL_Rect renderLocation = {new_position.x, new_position.y ,m_width , m_height};
 
 	//Render to screen
 	SDL_RenderCopyEx(m_renderer, m_texture, nullptr, &renderLocation, 0, nullptr , SDL_FLIP_NONE);
@@ -73,7 +73,7 @@ bool Texture2D::LoadFromFile(std::string path)
 		//SDL_FreeSurface(p_surface);
 		else
 		{
-			cout << "Unable to create texture from surface. Error: " << SDL_GetError();
+			cout << "Texture was created" << endl;
 			m_width = p_surface->w;
 			m_height = p_surface->h;
 		}

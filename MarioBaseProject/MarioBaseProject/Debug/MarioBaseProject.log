@@ -1,8 +1,5 @@
-﻿  GameScreen.cpp
+﻿  Character.cpp
   GameScreenLevel1.cpp
-  GameScreenManager.cpp
-  MarioBase.cpp
-  Texture2D.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenLevel1.cpp(31,12): warning C4930: 'Character Render(void)': prototyped function not called (was a variable definition intended?)
   Generating Code...
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\MarioBase.cpp(111): warning C4715: 'InitSDL': not all control paths return a value
   MarioBaseProject.vcxproj -> D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe
