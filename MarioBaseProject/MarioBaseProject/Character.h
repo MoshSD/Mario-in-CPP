@@ -20,6 +20,9 @@ class Character
 		Texture2D* m_texture;
 		bool m_moving_left;
 		bool m_moving_right;
+		bool m_jumping;
+		bool m_can_jump;
+		bool m_jump_force;
 
 		virtual void MoveLeft(float deltaTime);
 		virtual void MoveRight(float deltaTime);
@@ -32,12 +35,15 @@ class Character
 
 		virtual void Render();
 		virtual void Update(float deltaTime, SDL_Event e);
+		virtual void AddGravity(float deltaTime);
+		virtual void Jump();
 		void SetPosition(Vector2D new_position);
 		Vector2D GetPosition();
 
 
 	private:
 		FACING m_facing_direction;
+		bool falling = true;
 
 };
 

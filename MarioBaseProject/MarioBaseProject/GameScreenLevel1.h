@@ -4,6 +4,8 @@
 #include "GameScreen.h"
 #include "Commons.h"
 #include "Character.h"
+#include "CharacterLuigi.h"
+#include "CharacterMario.h"
 
 
 
@@ -31,6 +33,8 @@ public:
 private:
 	Texture2D* m_background_texture;
 	Character* my_character;
+	CharacterMario* mario_Character;
+	CharacterLuigi* luigi_Character;
 	bool SetUpLevel();
 	};
 #endif //_GAMESCREENLEVEL1_H
