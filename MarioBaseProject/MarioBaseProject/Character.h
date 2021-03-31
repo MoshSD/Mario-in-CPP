@@ -6,6 +6,7 @@
 #include <iostream>
 #include "Commons.h"
 #include <string>
+#include "Texture2D.h"
 using namespace std;
 
 
@@ -24,8 +25,11 @@ class Character
 		bool m_can_jump;
 		bool m_jump_force;
 
+
 		virtual void MoveLeft(float deltaTime);
 		virtual void MoveRight(float deltaTime);
+
+		float m_collision_radius;
 
 
 
@@ -40,6 +44,9 @@ class Character
 		void SetPosition(Vector2D new_position);
 		Vector2D GetPosition();
 
+		float GetCollisionRadius();
+
+		Rect2D GetCollisionBox() { return Rect2D(m_position.x, m_position.y, m_texture->GetWidth(), m_texture->GetHeight()); }
 
 	private:
 		FACING m_facing_direction;

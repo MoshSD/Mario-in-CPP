@@ -1,6 +1,4 @@
-﻿  CharacterMario.cpp
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterMario.cpp(37,51): warning C4804: '-=': unsafe use of type 'bool' in operation
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterMario.cpp(40,27): warning C4804: '<=': unsafe use of type 'bool' in operation
-  GameScreenLevel1.cpp
-  Generating Code...
+﻿  GameScreenLevel1.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(49,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(49,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   MarioBaseProject.vcxproj -> D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe

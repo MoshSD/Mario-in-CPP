@@ -2,6 +2,7 @@
 #include "Texture2D.h"
 #include <iostream>
 #include "Character.h"
+#include "Collisions.h"
 
 
 
@@ -44,6 +45,15 @@ void  GameScreenLevel1::Update(float deltaTime, SDL_Event e)
 	mario_Character->Update(deltaTime, e);
 	luigi_Character->Update(deltaTime, e);
 
+	if (Collisions::Instance()->Circle(mario_Character, luigi_Character))
+	{
+		cout << "Circle hit!" << endl;
+	}
+	//Rect2D GetCollisionBox() { return Rect2D(m_position.x, m_position.y, m_texture->GetWidth(), m_texture->GetHeight()); }
+	if (Collisions::Instance()->Box(mario_Character->GetCollisionBox(),luigi_Character->GetCollisionBox()))
+	{
+		cout << "Box hit!" << endl;
+	}
 
 }
 
