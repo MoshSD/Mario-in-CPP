@@ -34,6 +34,7 @@ class Character
 
 
 
+
 	public:
 		Character(SDL_Renderer* renderer, string imagePath, Vector2D start_position, LevelMap* map);
 		~Character();
@@ -48,6 +49,8 @@ class Character
 		float GetCollisionRadius();
 
 		Rect2D GetCollisionBox() { return Rect2D(m_position.x, m_position.y, m_texture->GetWidth(), m_texture->GetHeight()); }
+		bool IsJumping() { return m_jumping; }
+		bool CancelJump() { return m_jumping = false; }
 
 	private:
 		FACING m_facing_direction;

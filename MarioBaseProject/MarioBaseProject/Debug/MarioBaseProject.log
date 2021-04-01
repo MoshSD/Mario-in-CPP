@@ -1,4 +1,26 @@
 ﻿  GameScreenLevel1.cpp
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(50,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(50,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameScreenManager.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PowBlock.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(18,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(19,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(40,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(43,43): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(43,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(43,62): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(43,62): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(48,4): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(48,4): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(48,23): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(48,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   MarioBaseProject.vcxproj -> D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe
