@@ -1,7 +1,7 @@
 #include "Character.h"
 #include "constants.h"
 
-Character::Character(SDL_Renderer* renderer,  string imagePath, Vector2D start_position)
+Character::Character(SDL_Renderer* renderer,  string imagePath, Vector2D start_position, LevelMap* map)
 {
 	m_renderer = renderer;
 	m_position = start_position;
@@ -20,6 +20,8 @@ Character::Character(SDL_Renderer* renderer,  string imagePath, Vector2D start_p
 	m_moving_left = false;
 	m_moving_right = false;
 	m_collision_radius = 15.0f;
+	m_current_level_map = map;
+	m_can_jump = true;
 
 
 }
@@ -44,72 +46,46 @@ void Character::Render()
 
 void Character::Update(float deltaTime, SDL_Event e)
 {
-	//cout << m_position.y << endl;
-	//AddGravity(deltaTime);
 
-	//if (m_moving_left)
-	//{
-	//	MoveLeft(deltaTime);
-	//}
-	//else if (m_moving_right)
-	//{
-	//	MoveRight(deltaTime);
-	//}
+	cout << "char update is occuring" << endl;
+	//collision position variables
+	int centralX_position = (int)(m_position.x + (m_texture->GetWidth() * 0.5)) / TILE_WIDTH;
+	int foot_position = (int)(m_position.y + m_texture->GetHeight()) / TILE_HEIGHT;
+
+	//deal with gravity
+	if (m_current_level_map->GetTileAt(foot_position, centralX_position) == 0)
+	{
+		cout << "Gravity needed!" << endl;
+		AddGravity(deltaTime);
+	}
+	else
+	{
+		//collided with ground so we can jump again
+		m_can_jump = true;
+	}
+
+	if (m_moving_left)
+	{
+		MoveLeft(deltaTime);
+	}
+	else if (m_moving_right)
+	{
+		MoveRight(deltaTime);
+	}
 
 	//deal with jumping first
-	//if (m_jumping)
-	//{
+	if (m_jumping)
+	{
 		//adjust position
-	//	m_position.y -= m_jump_force * deltaTime;
+		m_position.y -= m_jump_force * deltaTime;
 
 		//reduce jump force
-	//	m_jump_force -= JUMP_FORCE_DECREMENT * deltaTime;
+		m_jump_force -= JUMP_FORCE_DECREMENT * deltaTime;
 
 		//is jump force 0?
-	//	if (m_jump_force <= 0.0f)
-	//		m_jumping = false;
-	//}
-
-	//switch (e.type)
-	//{
-	//case SDL_KEYDOWN:
-	//	switch (e.key.keysym.sym)
-	//	{
-	//	case SDLK_LEFT:
-	//		m_moving_left = true;
-	//		break;
-	//	case SDLK_RIGHT:
-	//		m_moving_right = true;
-	//		break;
-	//	case SDLK_SPACE:
-	//		cout << "spacebar pressed" << endl;
-	//		if (m_can_jump == true)
-	//		{
-	//			Jump();
-	//			cout << m_can_jump << endl;
-	//		}
-
-	//	}		
-	//	break;
-	//case SDL_KEYUP:
-	//	switch (e.key.keysym.sym)
-	//	{
-	//	case SDLK_LEFT:
-	//		m_moving_left = false;
-	//		break;
-	//	case SDLK_RIGHT:
-	//		m_moving_right = false;
-	//		break;
-	//	}
-	//	break;
-	
-//	default:;
-//	}
-
-	
-
-
-
+		if (m_jump_force <= 0.0f)
+			m_jumping = false;
+	}
 }
 
 
@@ -140,16 +116,13 @@ void Character::AddGravity(float deltaTime)
 {
 
 
-	if (m_position.y + 64 >= SCREEN_HEIGHT)
-	{
-		falling = false;
-		m_can_jump = true;
-
-	}
-	if (falling == true)
+	if (m_position.y + 64 <= SCREEN_HEIGHT)
 	{
 		m_position.y += GRAVITY * deltaTime;
-
+	}
+	else
+	{
+		m_can_jump = true;
 	}
 
 }

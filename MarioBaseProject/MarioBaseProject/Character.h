@@ -7,6 +7,7 @@
 #include "Commons.h"
 #include <string>
 #include "Texture2D.h"
+#include "LevelMap.h"
 using namespace std;
 
 
@@ -23,7 +24,7 @@ class Character
 		bool m_moving_right;
 		bool m_jumping;
 		bool m_can_jump;
-		bool m_jump_force;
+		float m_jump_force;
 
 
 		virtual void MoveLeft(float deltaTime);
@@ -34,7 +35,7 @@ class Character
 
 
 	public:
-		Character(SDL_Renderer* renderer, string imagePath, Vector2D start_position);
+		Character(SDL_Renderer* renderer, string imagePath, Vector2D start_position, LevelMap* map);
 		~Character();
 
 		virtual void Render();
@@ -51,6 +52,7 @@ class Character
 	private:
 		FACING m_facing_direction;
 		bool falling = true;
+		LevelMap* m_current_level_map;
 
 };
 

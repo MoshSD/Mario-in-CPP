@@ -6,6 +6,7 @@
 #include "Character.h"
 #include "CharacterLuigi.h"
 #include "CharacterMario.h"
+#include "LevelMap.h"
 
 
 
@@ -36,5 +37,11 @@ private:
 	CharacterMario* mario_Character;
 	CharacterLuigi* luigi_Character;
 	bool SetUpLevel();
+
+	void SetLevelMap();
+
+	LevelMap* m_level_map;
+
+
 	};
 #endif //_GAMESCREENLEVEL1_H

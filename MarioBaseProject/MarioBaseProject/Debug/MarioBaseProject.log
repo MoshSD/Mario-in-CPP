@@ -1,4 +1,4 @@
 ﻿  GameScreenLevel1.cpp
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(49,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(49,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(50,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(50,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   MarioBaseProject.vcxproj -> D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe
