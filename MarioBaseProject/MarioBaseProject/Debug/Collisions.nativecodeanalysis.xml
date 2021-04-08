@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\SDL2\SDL\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>Character.h</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.</DESCRIPTION>
+    <FUNCTION>Character::CancelJump</FUNCTION>
+    <DECORATED>?CancelJump@Character@@QAE_NXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>Collisions.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>62</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Collisions::Circle</FUNCTION>
+    <DECORATED>?Circle@Collisions@@QAE_NPAVCharacter@@0@Z</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -24,8 +24,9 @@ class Character
 		bool m_moving_right;
 		bool m_jumping;
 		bool m_can_jump;
+		bool m_alive;
 		float m_jump_force;
-
+		bool m_injured;
 
 		virtual void MoveLeft(float deltaTime);
 		virtual void MoveRight(float deltaTime);
@@ -51,11 +52,17 @@ class Character
 		Rect2D GetCollisionBox() { return Rect2D(m_position.x, m_position.y, m_texture->GetWidth(), m_texture->GetHeight()); }
 		bool IsJumping() { return m_jumping; }
 		bool CancelJump() { return m_jumping = false; }
+		bool SetAlive(bool isAlive);
+		bool GetAlive() { return m_alive; }
+
 
 	private:
 		FACING m_facing_direction;
 		bool falling = true;
 		LevelMap* m_current_level_map;
+
+
+
 
 };
 

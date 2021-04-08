@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\SDL2\SDL\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>Texture2D.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Texture2D::m_width' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Texture2D::{ctor}</FUNCTION>
+    <DECORATED>??0Texture2D@@QAE@PAUSDL_Renderer@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Texture2D::m_width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>Texture2D.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Texture2D::m_height' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Texture2D::{ctor}</FUNCTION>
+    <DECORATED>??0Texture2D@@QAE@PAUSDL_Renderer@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Texture2D::m_height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>Texture2D.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Texture2D::m_texture' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Texture2D::{ctor}</FUNCTION>
+    <DECORATED>??0Texture2D@@QAE@PAUSDL_Renderer@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Texture2D::m_texture</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>Texture2D.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_RendererFlip' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Texture2D::Render</FUNCTION>
+    <DECORATED>?Render@Texture2D@@QAEXUVector2D@@W4SDL_RendererFlip@@N@Z</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

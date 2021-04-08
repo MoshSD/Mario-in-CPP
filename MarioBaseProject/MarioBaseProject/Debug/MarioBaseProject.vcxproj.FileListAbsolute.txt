@@ -1,0 +1,2 @@
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe.lastcodeanalysissucceeded
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Debug\NativeCodeAnalysis.read.1.tlog

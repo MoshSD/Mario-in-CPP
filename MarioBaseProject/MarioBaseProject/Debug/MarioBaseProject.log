@@ -1,11 +1,80 @@
-﻿  GameScreenLevel1.cpp
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  Character.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CharacterCoin.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(10,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(11,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(29,51): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(29,51): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(29,73): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(29,73): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(29,92): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(29,92): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(32,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(32,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(32,85): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(32,85): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  CharacterKoopa.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(10,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(11,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(79,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(83,10): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(88,42): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(88,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(88,61): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(88,61): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(91,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(91,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(91,85): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(91,85): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  CharacterLuigi.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CharacterMario.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Collisions.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameScreen.cpp
+  GameScreenLevel1.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameScreenLevel2.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   GameScreenManager.cpp
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(51,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameScreenMenu.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameScreenOver.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameScreenYouWin.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  LevelMap.cpp
+  MarioBase.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(52,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.h(17,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   PowBlock.cpp
@@ -22,5 +91,31 @@ D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(4
 D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(48,4): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(48,23): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
 D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(48,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Texture2D.cpp
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Texture2D.cpp(46,41): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Texture2D.cpp(46,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Texture2D.cpp(46,57): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Texture2D.cpp(46,57): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Compiling...
   Generating Code...
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\MarioBase.cpp(133): warning C4715: 'InitSDL': not all control paths return a value
   MarioBaseProject.vcxproj -> D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\Debug\MarioBaseProject.exe
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\SDL2\SDL\include\SDL_rect.h(102): warning C26812: The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.h(54): warning C6282: Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.cpp(4): warning C26495: Variable 'Character::m_jumping' is uninitialized. Always initialize a member variable (type.6).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Character.cpp(8): warning C26812: The enum type 'FACING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(3): warning C26495: Variable 'CharacterCoin::m_frame_delay' is uninitialized. Always initialize a member variable (type.6).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterCoin.cpp(3): warning C26812: The enum type 'FACING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(3): warning C26495: Variable 'CharacterKoopa::m_injured_time' is uninitialized. Always initialize a member variable (type.6).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\CharacterKoopa.cpp(3): warning C26812: The enum type 'FACING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Collisions.cpp(34): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreen.cpp(10): warning C26495: Variable 'GameScreen::gameScreenManager' is uninitialized. Always initialize a member variable (type.6).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenLevel1.cpp(269): warning C26812: The enum type 'FACING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(268): warning C26812: The enum type 'FACING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenManager.cpp(9): warning C26812: The enum type 'SCREENS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenMenu.cpp(36): warning C26812: The enum type 'GameScreenMenu::BACKGROUNDS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenOver.cpp(39): warning C26812: The enum type 'GameScreenOver::BACKGROUNDS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\GameScreenYouWin.cpp(35): warning C26812: The enum type 'GameScreenYouWin::BACKGROUNDS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\PowBlock.cpp(7): warning C26495: Variable 'PowBlock::m_renderer' is uninitialized. Always initialize a member variable (type.6).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Texture2D.cpp(7): warning C26495: Variable 'Texture2D::m_width' is uninitialized. Always initialize a member variable (type.6).
+D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\Texture2D.cpp(43): warning C26812: The enum type 'SDL_RendererFlip' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).

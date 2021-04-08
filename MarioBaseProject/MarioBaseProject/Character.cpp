@@ -22,7 +22,8 @@ Character::Character(SDL_Renderer* renderer,  string imagePath, Vector2D start_p
 	m_collision_radius = 15.0f;
 	m_current_level_map = map;
 	m_can_jump = true;
-
+	m_alive = true;
+	m_injured = false;
 
 }
 
@@ -46,8 +47,6 @@ void Character::Render()
 
 void Character::Update(float deltaTime, SDL_Event e)
 {
-
-	cout << "char update is occuring" << endl;
 	//collision position variables
 	int centralX_position = (int)(m_position.x + (m_texture->GetWidth() * 0.5)) / TILE_WIDTH;
 	int foot_position = (int)(m_position.y + m_texture->GetHeight()) / TILE_HEIGHT;
@@ -55,7 +54,6 @@ void Character::Update(float deltaTime, SDL_Event e)
 	//deal with gravity
 	if (m_current_level_map->GetTileAt(foot_position, centralX_position) == 0)
 	{
-		cout << "Gravity needed!" << endl;
 		AddGravity(deltaTime);
 	}
 	else
@@ -141,4 +139,11 @@ float Character::GetCollisionRadius()
 {
 	return m_collision_radius;
 }
+
+bool Character::SetAlive(bool isAlive)
+{
+	return m_alive = isAlive;
+}
+
+
 

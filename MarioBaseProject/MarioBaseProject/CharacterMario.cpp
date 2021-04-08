@@ -21,19 +21,15 @@ void CharacterMario::Update(float deltaTime, SDL_Event e)
 		switch (e.key.keysym.sym)
 		{
 		case SDLK_LEFT:
-			cout << "lefty" << endl;
 			m_moving_left = true;
 			break;
 		case SDLK_RIGHT:
-			cout << "righty" << endl;
 			m_moving_right = true;
 			break;
 		case SDLK_SPACE:
-			cout << "spacebar pressed" << endl;
 			if (m_can_jump == true)
 			{
 				Jump();
-				cout << m_can_jump << endl;
 			}
 		}		
 		break;

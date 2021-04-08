@@ -6,7 +6,7 @@
 #include <string>
 #include "Commons.h"
 
-
+class GameScreenManager;
 
 class GameScreen
 {
@@ -17,9 +17,11 @@ public:
 	virtual void Render();
 	virtual void Update(float deltaTime, SDL_Event e);
 
+	void PassManager(GameScreenManager* manager) { gameScreenManager = manager; }
+
 protected:
 	SDL_Renderer* m_renderer;
-
+	GameScreenManager* gameScreenManager;
 
 };
 

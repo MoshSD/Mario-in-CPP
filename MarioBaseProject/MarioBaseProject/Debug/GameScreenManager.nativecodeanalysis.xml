@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\SDL2\SDL\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>Character.h</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.</DESCRIPTION>
+    <FUNCTION>Character::CancelJump</FUNCTION>
+    <DECORATED>?CancelJump@Character@@QAE_NXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ShitHub\MarioBaseProjectReal\MarioBaseProject\MarioBaseProject\</FILEPATH>
+      <FILENAME>GameScreenManager.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SCREENS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>GameScreenManager::{ctor}</FUNCTION>
+    <DECORATED>??0GameScreenManager@@QAE@PAUSDL_Renderer@@W4SCREENS@@@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

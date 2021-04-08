@@ -78,7 +78,7 @@ bool Texture2D::LoadFromFile(std::string path)
 		//SDL_FreeSurface(p_surface);
 		else
 		{
-			cout << "Texture was created" << endl;
+			//cout << "Texture was created" << endl;
 			m_width = p_surface->w;
 			m_height = p_surface->h;
 		}

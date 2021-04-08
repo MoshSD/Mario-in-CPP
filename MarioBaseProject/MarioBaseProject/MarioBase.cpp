@@ -2,11 +2,11 @@
 #include <SDL_image.h>
 #include <SDL_mixer.h>
 #include <iostream>
-
 #include "constants.h"
 #include "Texture2D.h"
 #include "Commons.h"
 #include "GameScreenManager.h"
+
 
 
 using namespace std;
@@ -18,6 +18,8 @@ SDL_Window* g_window = nullptr;
 SDL_Renderer* g_renderer = nullptr;
 GameScreenManager* game_screen_manager;
 Uint32 g_old_time;
+Mix_Music* g_music = nullptr;
+Mix_Chunk* g_sfx = nullptr;
 //Texture2D* g_texture = nullptr;
 
 //Function prototypes
@@ -25,7 +27,7 @@ bool InitSDL();
 void CloseSDL();
 bool Update();
 void Render();
-
+void LoadMusic(string path);
 
 
 
@@ -50,6 +52,10 @@ int main(int argc, char* args[])
 			Render();
 			quit = Update();
 		}
+
+
+
+
 	}
 	CloseSDL();
 	return 0;
@@ -57,6 +63,21 @@ int main(int argc, char* args[])
 
 bool InitSDL()
 {
+	//initialise the mixer
+	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
+	{
+		cout << "Mixer could not init, error: " << Mix_GetError();
+		return false;
+	}
+
+	LoadMusic("Music/Mario.mp3");
+	if (Mix_PlayingMusic() == 0)
+	{
+		Mix_PlayMusic(g_music, -1);
+	}
+
+
+
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		cout << "SDL did not initialise.  Error: " << SDL_GetError();
@@ -108,10 +129,16 @@ bool InitSDL()
 	//}
 	
 
+
 }
 
 void CloseSDL() 
 {
+	//clear up music
+	Mix_FreeMusic(g_music);
+	g_music = nullptr;
+
+
 	//release the window
 	SDL_DestroyWindow(g_window); 
 	g_window = nullptr;
@@ -119,6 +146,7 @@ void CloseSDL()
 	//Quit SDL subsystems
 	IMG_Quit();
 	SDL_Quit();
+	Mix_Quit();
 
 	//release the texture
 	//delete g_texture;
@@ -131,6 +159,9 @@ void CloseSDL()
 	//destroy the game screen manager
 	delete game_screen_manager;
 	game_screen_manager = nullptr;
+
+
+
 
 }
 
@@ -153,6 +184,14 @@ bool Update()
 		break;
 	}
 
+	//cout << game_screen_manager->Quitting() << endl;
+	if (game_screen_manager->Quitting())
+	{
+		cout << "Now quitting" << endl;
+		return true;
+	}
+
+
 	game_screen_manager->Update((float)(new_time - g_old_time) / 1000.0f, e);
 	g_old_time = new_time;
 	return false;
@@ -173,4 +212,12 @@ void Render()
 }
 
 
+void LoadMusic(string path)
+{
+	g_music = Mix_LoadMUS(path.c_str());
+	if (g_music == nullptr)
+	{
+		cout << "Failed to load music. Error: " << Mix_GetError() << endl;
+	}
+}
 
